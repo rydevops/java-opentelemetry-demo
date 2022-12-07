@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ryorke</groupId>
+  <artifactId>otel-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>otel-demo</name>
+  
+  <dependencies>
+  <dependency>
+    <groupId>io.opentelemetry.instrumentation</groupId>
+    <artifactId>opentelemetry-instrumentation-annotations</artifactId>
+    <version>1.20.2</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/io.opentelemetry.javaagent/opentelemetry-javaagent -->
+	<dependency>
+	    <groupId>io.opentelemetry.javaagent</groupId>
+	    <artifactId>opentelemetry-javaagent</artifactId>
+	    <version>1.20.2</version>
+	    <scope>runtime</scope>
+	</dependency>
+
+	  
+</dependencies>
+</project>
